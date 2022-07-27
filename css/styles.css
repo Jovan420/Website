@@ -25,10 +25,12 @@ a{
 /* CLASS SELECTORS */
 /* Class sekectors are done my adding a . before the selector, the class has to be listed as an attribute in index.html */
 .skilltable{
-  height: 40px;
-  width: 50%;
+  height: 100%;
+  width: 100%;
   border-collapse: collapse;
   border-spacing: 3;
+  margin-left: auto;
+  margin-right: auto;
 }
 .contact{
   color: #A5C9CA;
