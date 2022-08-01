@@ -1,0 +1,60 @@
+/* inline > infile > external css 
+selector{property:value};*/
+/* TAG SELECTORS */
+body{
+  background-color: #2C3333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #A5C9CA;
+}
+hr{
+  height: 1px;
+  width: 10%;
+  border-style: dotted none none;
+  border-width: 5px;
+  border-color: #395B64;
+}
+img{
+  width: 75%;
+  height: 75%;
+}
+a{
+  color: #A5C9CA;
+  text-decoration: none;
+}
+/* CLASS SELECTORS */
+/* Class sekectors are done my adding a . before the selector, the class has to be listed as an attribute in index.html */
+.skilltable{
+  height: 100%;
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 3;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact{
+  color: #A5C9CA;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.contact:hover{
+  color: #395B64;
+  text-decoration: underline;
+  transition: all 0.5s;
+}
+.skilltable{
+  word-spacing: 20px;
+  width: fit-content;
+  color: #A5C9CA;
+  padding: 10px;
+  border-collapse: collapse;
+  border-spacing: 3;
+  text-align: center;
+  transition: all 0.5s;
+  border-radius: 8px;
+}
+.skilltable:hover{
+  transform: scale(1.1);
+  transition: all 0.5s;
+  background: #395B64;
+}
